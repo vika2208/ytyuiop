@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Система бронирования туров</title>
+<style>
+body{font-family:Arial;background:#f2f5f8;margin:0;color:#222}
+header{background:#2878b5;color:white;text-align:center;padding:20px}
+nav{background:#205f91;text-align:center;padding:10px}
+button{padding:10px 14px;margin:5px;border:0;border-radius:4px;background:#2878b5;color:white;cursor:pointer}
+nav button{background:white;color:#205f91}
+main{max-width:950px;margin:20px auto;padding:0 15px}
+.tours{display:flex;flex-wrap:wrap;gap:15px}
+.tour,.form{background:white;border:1px solid #ddd;border-radius:6px;padding:15px;width:250px;box-sizing:border-box}
+h3{color:#2878b5}
+label{display:block;margin-top:12px}
+input,select{box-sizing:border-box;width:100%;padding:9px;margin-top:5px}
+footer{text-align:center;color:#666;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Система бронирования туров</h1>
+<p>Учебный проект</p>
+</header>
+
+<nav>
+<button>Главная</button>
+<button>Каталог туров</button>
+<button>Забронировать тур</button>
+<button>Мои бронирования</button>
+<button>О проекте</button>
+</nav>
+
+<main>
+<h2>Популярные туры</h2>
+
+<div class="tours">
+<div class="tour">
+<h3>Отдых в Анталии</h3>
+<p>Страна: Турция</p>
+<p>Продолжительность: 7 дней</p>
+<p>Море, пляж и отдых в отеле.</p>
+<p><b>Цена: 1800 BYN</b></p>
+<button>Выбрать тур</button>
+</div>
+
+<div class="tour">
+<h3>Экскурсия по Риму</h3>
+<p>Страна: Италия</p>
+<p>Продолжительность: 5 дней</p>
+<p>Знакомство с достопримечательностями.</p>
+<p><b>Цена: 1500 BYN</b></p>
+<button>Выбрать тур</button>
+</div>
+
+<div class="tour">
+<h3>Отдых на Пхукете</h3>
+<p>Страна: Таиланд</p>
+<p>Продолжительность: 10 дней</p>
+<p>Тропические пляжи и красивые острова.</p>
+<p><b>Цена: 3200 BYN</b></p>
+<button>Выбрать тур</button>
+</div>
+
+<div class="tour">
+<h3>Горный тур</h3>
+<p>Страна: Австрия</p>
+<p>Продолжительность: 6 дней</p>
+<p>Горы и красивые пейзажи.</p>
+<p><b>Цена: 2200 BYN</b></p>
+<button>Выбрать тур</button>
+</div>
+</div>
+</main>
+</body>
+</html>
